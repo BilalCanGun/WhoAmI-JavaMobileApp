@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_Giris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="186dp"
+        android:onClick="giris"
+        android:text="Giriş yap" />
+
+    <EditText
+        android:id="@+id/editText_Mail"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="202dp"
+        android:ems="10"
+        android:hint="Mail giriniz"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="339dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="Şifre giriniz"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button_Kayit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="236dp"
+        android:layout_marginBottom="184dp"
+        android:onClick="hesabimyok"
+        android:text="Hesabım yok " />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="182dp"
+        android:layout_height="142dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@drawable/pp" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/black"
+        android:id="@+id/getLocation"
+        android:text="Neredeyim?"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"/>
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="284dp"
+        android:layout_marginBottom="47dp"
+        android:text="Country"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

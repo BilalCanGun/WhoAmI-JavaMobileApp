@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411962168065",
+    "project_id": "anketapp-35d14",
+    "storage_bucket": "anketapp-35d14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411962168065:android:92d2f23b99d55650544100",
+        "android_client_info": {
+          "package_name": "com.example.anketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411962168065-epov7ck9b42cgbeegl6h523eehu77gbs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnf9a6FhR0_EUOQ948Zk1BgiHhZsTwwS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411962168065-epov7ck9b42cgbeegl6h523eehu77gbs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

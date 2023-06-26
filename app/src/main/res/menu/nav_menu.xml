@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Sayfalar">
+            <menu>
+                <item
+                    android:id="@+id/mProfile"
+                    android:icon="@drawable/person"
+                    android:title="Anasayfa" />
+                <item
+                    android:id="@+id/test1"
+                    android:icon="@drawable/test"
+                    android:title="Ne kadar komiksin?" />
+                <item
+                    android:id="@+id/test2"
+                    android:icon="@drawable/test"
+                    android:title="Ne kadar Umutlusun?" />
+                <item
+                    android:id="@+id/test3"
+                    android:icon="@drawable/test"
+                    android:title="kendini geliştiriyor musun123456@?" />
+                <item
+                    android:id="@+id/test4"
+                    android:icon="@drawable/test"
+                    android:title="Ne kadar streslisin?" />
+                <item
+                    android:id="@+id/test5"
+                    android:icon="@drawable/test"
+                    android:title="Ne kadar Güvensizsin?" />
+                <item
+                    android:id="@+id/mLogout"
+                    android:icon="@drawable/logout"
+                    android:title="Çıkış Yap" />
+            </menu>
+        </item>
+
+    </group>
+</menu>
